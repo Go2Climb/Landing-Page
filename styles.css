@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto';
+    }
+
+
+/*seccion 1*/
+
+.sec1
+{
+    background-image: url(media/mo1.jpg);
+    background-repeat: no-repeat fixed;
+    -webkit-background-size: cover;
+    background-size: 100%;
+    background-position-y: 40%;
+    position:relative; 
+    
+    min-width: 1467px;
+    
+    min-height: 900px;
+    max-height: 900px;
+    padding: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.5s;
+}
+.content
+{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.content .textBox
+{
+    position: relative;
+    max-width: 900px;
+    
+    
+   
+}
+.content .textBox h2 
+{
+    position: relative;
+    color: white;
+    font-size: 3em;
+    line-height: 1.5em;
+    font-weight: 1200;
+
+}
+.content .textBox h2 span
+{
+    font-size: 2em;
+}
+.content .textBox p
+{
+    color: white;
+}
