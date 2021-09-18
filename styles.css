@@ -62,3 +62,100 @@
 {
     color: white;
 }
+
+
+
+/*seccion 2*/
+.sec2
+{
+    background:linear-gradient( rgb(37, 38, 36),rgb(85, 111, 124));
+    min-height:auto;
+    
+    position: relative;
+}
+.sec2 .sec2title h1 
+{   
+    color: rgb(206, 195, 198);
+    text-align:center;
+    font-size: xx-large;
+    padding-top: 2%;
+}
+.sec2 .sec2title p{
+    color: rgb(206, 195, 198);
+    text-align: center;
+    padding-bottom: 2.5%;
+}
+.sec2 .col
+{
+    float: left;
+    width: 50%;
+}
+.sec2 .col p
+{
+    color: rgb(206, 195, 198);
+    text-align: justify left;
+    padding-top: 10%;
+    font-size: 2.5em;
+    line-height: 2.5em;
+    font-weight: 400;
+    
+    
+}
+.sec2 .col h3
+{
+    color: rgb(206, 195, 198);
+    padding-top: 10%;
+    font-size: 2.5em;
+    line-height: 0.5em;
+    font-weight: 400;
+    
+}
+.sec2 .row::after
+{
+    content: "";
+    display: flex;
+    clear: both;
+}
+
+.sec2 .f2
+{
+    position: relative;
+    
+    margin-left: 20%;
+    max-width: 45%;
+    min-height: 375px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.678);
+    
+}
+
+.sec2 a{
+  padding-left: 15%;
+
+}
+header .logo
+{
+    position: relative;
+    max-width: 250px;
+}
+header ul
+{
+    position: relative;
+    display: flex;
+}
+header ul li
+{
+    list-style: none;
+}
+header ul li a
+{
+display: inline-block;
+color: black;
+font-weight: 400;
+margin-left: 40px;
+margin-top: 40px;
+text-decoration: none;
+}
+header ul li a:hover
+{
+    color:ivory;
+}
