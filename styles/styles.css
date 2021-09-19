@@ -250,6 +250,35 @@
     text-align: center;
 }
 
+/*footer*/
+.footer{
+    min-height: 15vh;
+    max-height: 25vh;
+    background-color: rgba(34, 45, 51) 
+}
+
+.footer .sec2title h1{
+    color: #fff;
+    padding-top: 10px;
+    text-align: center;
+}
+.footer .row{
+    display: flex;
+    justify-content:  center;
+}
+.footer h3{
+    text-align: center;
+    padding-top: 5px;
+    font-size: small;
+    
+}
+.footer p{
+    color: #fff;
+    text-align: center;
+    padding-top: 5px;
+    font-size: x-small;
+}
+
 .logo{
     padding-top: 15px;
     max-width: 25px;
