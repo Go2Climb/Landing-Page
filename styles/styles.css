@@ -376,3 +376,12 @@ button {
     color: #fff;
     margin-right: 120px;
 }
+.row{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.row p{
+    color: #fff;
+    text-align: center;
+}
