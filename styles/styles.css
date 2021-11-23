@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
 *
 {
@@ -13,17 +14,16 @@
 .sec1
 {
     background-image: url(../media/mo1.jpg);
-    background-repeat: no-repeat ;
+    background-repeat: no-repeat fixed;
     -webkit-background-size: cover;
     background-size: 100%;
     background-position-y: 40%;
     position:relative; 
     
-    background-size: 1920px; 
-    
+    min-width: 1467px;
     
     min-height: 900px;
-    
+    max-height: 900px;
     padding: 100px;
     display: flex;
     justify-content: space-between;
@@ -42,7 +42,6 @@
 {
     position: relative;
     max-width: 900px;
-    min-width: auto;
     
     
    
@@ -51,7 +50,7 @@
 {
     position: relative;
     color: white;
-    font-size: 2vw;
+    font-size: 3em;
     line-height: 1.5em;
     font-weight: 1200;
 
@@ -81,13 +80,11 @@
     text-align:center;
     font-size: xx-large;
     padding-top: 2%;
-    
 }
 .sec2 .sec2title p{
     color: rgb(206, 195, 198);
     text-align: center;
     padding-bottom: 2.5%;
-    
 }
 .sec2 .col
 {
@@ -99,10 +96,9 @@
     color: rgb(206, 195, 198);
     text-align: justify left;
     padding-top: 10%;
-    font-size: 2vw;
+    font-size: 2.5em;
     line-height: 2.5em;
     font-weight: 400;
-    padding-right: 15px;
     
     
 }
@@ -142,9 +138,9 @@
 {
     background-image: url(../media/fondo3.jpg);
     position: relative;
-    height:80vh;
+    max-height:120vh;
     /*background:white;*/
-    /*min-height: 80vh;*/
+    min-height: 80vh;
     padding-top: 2.5%;
     
     
@@ -243,7 +239,7 @@
 .sec4 {
     background-image: url(../media/bg4.jpg);
     padding-top: 60px;
-    height: 35vh;
+    min-height: 35vh;
 }
 .sec4 h2{
     padding-top: 5px;
@@ -304,7 +300,6 @@ header .logo
 {
     position: relative;
     max-width: 250px;
-  
 }
 header ul
 {
@@ -335,7 +330,7 @@ header ul li a:hover
 }
 button {
     margin-top: 30px;
-    
+    margin-left: 15px;
     position: relative;
     overflow: hidden;
     -webkit-transition: background 400ms;
@@ -381,5 +376,16 @@ button {
 .jobs{
     color: #fff;
     margin-right: 120px;
+}
+.row{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.row p{
+    color: rgb(206, 195, 198);
+    text-align:center;
+    font-size: xx-large;
+    padding-top: 2%;
 }
 
