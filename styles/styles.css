@@ -382,6 +382,8 @@ button {
     align-content: center;
 }
 .row p{
-    color: #fff;
-    text-align: center;
+    color: rgb(206, 195, 198);
+    text-align:center;
+    font-size: xx-large;
+    padding-top: 2%;
 }
